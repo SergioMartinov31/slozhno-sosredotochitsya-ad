@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0 auto;
 }
 
@@ -289,7 +289,7 @@ body{
     gap:20px;
   }
 
-  .rec-decor{
+  .rec-decor {
     inset-block-start: 15px;
   }
 
