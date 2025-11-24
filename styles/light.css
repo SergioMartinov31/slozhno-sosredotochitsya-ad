@@ -5,7 +5,7 @@
   --rec-decor-visibility: hidden;
 
   --title-color: rgba(255, 194, 230, 1);
-  --title-shadow-color: 0px 4px 4px rgba(255, 141, 203, 1);
+  --title-shadow-color: 4px 4px 0px rgba(255, 141, 203, 1);
   --text-color-background: rgba(255, 141, 203, 1);
   --article-text-color:  rgba(53, 52, 48, 1);
   --article-link-shadow: 2px 1px 0px rgba(255, 141, 203, 1);
@@ -21,7 +21,7 @@
     --rec-decor-visibility: hidden;
 
     --title-color: rgba(255, 194, 230, 1);
-    --title-shadow-color: 0px 4px 4px rgba(255, 141, 203, 1);
+    --title-shadow-color: 4px 4px 0px rgba(255, 141, 203, 1);
     --text-color-background: rgba(255, 141, 203, 1);
     --article-text-color:  rgba(53, 52, 48, 1);
     --article-link-shadow: 2px 1px 0px rgba(255, 141, 203, 1);
