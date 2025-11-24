@@ -405,6 +405,10 @@
     margin-block-end: 134px;
   }
 
+  .rec-decor{
+    inset-block-start: 2px;
+  }
+
   .footer__title {
   padding-block: 319px;
     font-size: 157px;
