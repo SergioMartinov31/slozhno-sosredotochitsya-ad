@@ -1,8 +1,5 @@
-body {
-  margin: 0 auto;
-}
-
 .page {
+  margin: 0 auto;
   padding: 10px;
   font-family: var(--page-font-family), monospace;
   background-color: var(--page-background-color);
@@ -18,10 +15,9 @@ body {
 
 .header {
   inline-size: 100%;
-  block-size: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  height: 100%;
+  min-height: 100vh;
   
 }
 
