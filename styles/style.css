@@ -17,7 +17,6 @@
   block-size: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  min-block-size: 100vh;
 }
 
 .decorated-zone {
@@ -82,7 +81,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin-block-start: 70px;
+  margin-block-start: 65px;
 }
 
 .header__theme-menu-list {
@@ -94,7 +93,8 @@
 
 .header__theme-menu-item {
   border: 1px solid transparent;
-  padding-inline: 10px;
+  padding-inline: 9px;
+  margin-block-start: 2px;
 }
 
 .header__theme-menu-button {
@@ -174,6 +174,10 @@
   gap:20px;
 }
 
+.section:nth-child(3) .article__title:nth-child(2) {
+  margin-block-start: 10px;
+}
+
 .section-title {
   justify-self: start;
   color: var(--text-color);
@@ -250,7 +254,8 @@
 
 
 .footer__title {
-  padding-block: 285px;
+  padding-block-start: 285px;
+  padding-block-end: 275px;
   color: var(--title-color);
   font-family: inherit;
   font-weight: 700;
