@@ -17,8 +17,6 @@
   inline-size: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  min-height: 100vh;
-  
 }
 
 .decorated-zone {
@@ -154,6 +152,10 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--text-color-background);
+
+  display: inline; 
+  padding: 0 2px; 
+  box-decoration-break: clone;
 }
 
 .header__text {
